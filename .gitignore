@@ -58,3 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+/Assets/Variables
+/Assets/Variables.meta
+/Assets/Scripts/SOPlayerProfile.cs
+/Assets/Scripts/SOPlayerProfile.cs.meta

@@ -139,7 +139,7 @@ namespace RoslynTest
                 fieldInfo.SetValue(parentObjectAsset, fieldAsset);
             }
 
-            string parentObjectPath = $"Assets/Variables/{className}";
+            string parentObjectPath = $"Assets/Variables/{className}.asset";
             AssetDatabase.CreateAsset(parentObjectAsset, parentObjectPath);
             AssetDatabase.Refresh();
         }
